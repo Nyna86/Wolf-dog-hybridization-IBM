@@ -3,8 +3,9 @@
 This repository contains the R code to run the individual-based model (IBM) presented in Santostasi et al. 2024 () which simulated wolf life cycle including individual behavior, pack dynamics and hybridization dynamics.
 The model is described in the following 2 papers: 
 
-Santostasi, N. L., Bauduin, S., Grente, O., Gimenez, O., & Ciucci, P. (2024). Simulating the efficacy of wolf–dog hybridization management with individual-based modeling. Conservation Biology.
-Bauduin, S., Grente, O., Santostasi, N. L., Ciucci, P., Duchamp, C., & Gimenez, O. (2020). An individual-based model to explore the impacts of lesser-known social dynamics on wolf populations. Ecological Modelling
+- Santostasi, N. L., Bauduin, S., Grente, O., Gimenez, O., & Ciucci, P. (2024). Simulating the efficacy of wolf–dog hybridization management with individual-based modeling. Conservation Biology.
+
+- Bauduin, S., Grente, O., Santostasi, N. L., Ciucci, P., Duchamp, C., & Gimenez, O. (2020). An individual-based model to explore the impacts of lesser-known social dynamics on wolf populations. Ecological Modelling
 
 The file initParam.R builds the initial wolf population needed to run the IBM simulations and set up the model parameters. 
 The file submodels.R includes all sub-models used in the wolf IBM and detailed in the Methods section of the paper. 
